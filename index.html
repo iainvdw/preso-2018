@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Hoi! 👋</h1>
+				</section>
+				<section>
+					<h2>Wat wil ik... <span class="fragment fade-in">doen</span><span class="fragment fade-in">, leren</span> <span class="fragment fade-in">en verbeteren in 2018?</span></h2>
+					<p class="fragment">Nou...</p>
+				</section>
+				<section>
+					<h2>Zelf 😎</h2>
+					<ul>
+						<li class="fragment">Accessibility</li>
+						<li class="fragment">CSS Layout</li>
+						<li class="fragment">JAMstack</li>
+						<li class="fragment">Uhh... jam?</li>
+					</ul>
+				</section>
+				<section data-background-video="media/jam.mp4"></section>
+				<section>
+					<h2><span class="fragment" data-fragment-index="1">🍓</span> JAMstack <span class="fragment" data-fragment-index="1">🍓</span></h2>
+					<ul>
+						<li class="fragment">JavaScript</li>
+						<li class="fragment">+ APIs</li>
+						<li class="fragment">+ Markup</li>
+						<li class="fragment">= Website!</li>
+						<li class="fragment"><a href="https://jamstack.org/" target="_blank">jamstack.org</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Voor jullie 🤗</h2>
+					<ul>
+						<li class="fragment">Kennissessies</li>
+						<li class="fragment">Mentoren/coachen FE devs</li>
+						<li class="fragment">(Door)ontwikkeling tooling</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Binnen E-sites </h2>
+					<ul>
+						<li class="fragment">Onderzoek nieuwe technieken/technologie</li>
+						<li class="fragment">Ontwikkelproces verbeteren</li>
+						<li class="fragment">Standaardisatie</li>
+					</ul>
+				</section>
+				<section>
+					<h2>En buiten E-sites?</h2>
+					<ul>
+						<li class="fragment">Nieuwe keuken 🛠</li>
+						<li class="fragment">Slow cooken op de BBQ 🔥</li>
+						<li class="fragment">Bier brouwen 🍺</li>
+						<li class="fragment">15 jaar samen met Margot ❤️</li>
+					</ul>
+				</section>
+				<section>
+					<h1>
+						👌
+					</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				progress: true,
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
